@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product Page</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <header id="header">
+                <img id="header-img" src="images/text-header.jpg" alt="Strawberries on a cutting board">
+                <div id="fixed-header">
+                    <p id="sale-banner">LIMITED TIME OFFER 20% off select items and FREE SHIPPING on all orders! CODE: 20LBD19</p>
+                    <div id="logo">
+                        <a href="#">
+                        <img src="images/logo.png" alt="strawberry logo"></a>
+                        <h1>Taste of Summer</h1>
+                    </div>
+                    <nav id="nav-bar">
+                        <ul>
+                            <li><a class="nav-link" href="#header">Home</a></li>
+                            <li><a class="nav-link" href="#menu-anchor">Menu</a></li>
+                            <li><a class="nav-link" href="#recipes-anchor">Recipes</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <div id="menu-anchor"></div> <!--Created for the link "menu" to scroll to, so there is space between the fixed header and the products-->
+                <div id="products">
+                    <div class="product">
+                        <img src="images/tart.png" alt="Tart">
+                        <a href="#"><p class="product-name">Tart</p></a>
+                    </div>
+                    <div class="product">
+                            <img src="images/cake.png" alt="Strawberry Cake">
+                            <a href="#"><p class="product-name">Cake</p></a>
+                    </div>
+                    <div class="product">
+                            <img src="images/sundae.png" alt="Strawberry Sundaes">
+                            <a href="#"><p class="product-name">Sundaes</p></a>
+                    </div>
+                    <div class="product">
+                            <img src="images/bitesize.png" alt="Strawberry Cupcakes">
+                            <a href="#"><p class="product-name">Cupcakes</p></a>
+                    </div>
+                    <div class="product">
+                            <img src="images/shortcake.png" alt="Strawberry Shortcake">
+                            <a href="#"><p class="product-name">Shortcake</p></a>
+                    </div>
+                    <div class="product">
+                            <img src="images/pie.png" alt="Strawberry Pie">
+                            <a href="#"><p class="product-name">Pie</p></a>
+                    </div>
+                    <div class="product">
+                            <img src="images/waffles.png" alt="Strawberry Waffles">
+                            <a href="#"><p class="product-name">Waffles</p></a>
+                    </div>
+                    <div class="product">
+                            <img src="images/cheesecake.png" alt="Strawberry Cheesecake">
+                            <a href="#"><p class="product-name">Cheesecake</p></a>
+                    </div>
+                    <div class="product">
+                            <img src="images/chocolate.png" alt="Chocolate Covered Strawberries">
+                            <a href="#"><p class="product-name">Chocolate Covered</p></a>
+                    </div>
+                </div>
+                <div id="recipes-anchor"></div> <!--Created for the link "recipes" to scroll to, so there is space between the fixed header and the div-->
+                <div id="recipes">
+                    <h2>Recipes</h2>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ZTmu-YXF80I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <label id="subscribe" for="email">Do you want to learn how to make our delicious summer treats at home? To get printable recipe cards and video tutorials like this one, subscribe to our email list:</label>
+                    <div id="email-submit">
+                    <input name="email" id="email" type="email" placeholder="Email" required>
+                    <input id="submit" type="submit" value="Subscribe"/>
+                    </div>
+                    </form>
+                </div>
+            </main>
+            <footer>
+                Copyright &copy; 2019 Tess Fisher
+            </footer>
+        </div>
+    </body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
