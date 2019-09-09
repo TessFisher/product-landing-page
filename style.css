@@ -200,9 +200,12 @@ header{
 }
 #video{
     border: 8px solid white;
+    max-width: 95vw;
+    height: auto;
 }
 form{
-    max-width: 60%;
+    width: 650px;
+    max-width: 80%;
     text-align: center;
     margin: 20px;
 }
