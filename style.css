@@ -48,7 +48,7 @@ header{
     margin: 0;
     padding: 0;
 }
-@media(max-width: 650px), (max-height: 650px){
+@media(max-width: 650px), (hover:none){
     #fixed-header{
         grid-template-rows: fit-content fit-content fit-content;
         grid-template-columns: 100vw;
@@ -73,7 +73,7 @@ header{
     margin: 0 15px;
     padding: 0;
 }
-@media(max-width: 650px), (max-height: 650px){
+@media(max-width: 650px){
     #logo img{
         margin: 0 15px 0 0;
     }
@@ -121,7 +121,7 @@ header{
     grid-area: nav;
     align-self: center;
 }
-@media(max-width:650px), (max-height: 650px){
+@media(max-width:650px){
     #nav-bar{
         padding: 10px;
     }
@@ -163,6 +163,11 @@ header{
 #menu-anchor{
     height: 50px;
     margin: 0;
+}
+@media(max-width: 650px){
+    #menu-anchor{
+        height: 85px;
+    }
 }
 #products{
     margin-top: 20px;
