@@ -200,8 +200,18 @@ header{
 }
 #video{
     border: 8px solid white;
-    max-width: 95vw;
-    height: auto;
+}
+@media(max-width: 650px){
+    #video{
+        width: 504px;
+        height: 283.5px;
+    }
+}
+@media(max-width: 525px){
+    #video{
+        width: 392px;
+        height: 220.5px;
+    }
 }
 form{
     width: 650px;
