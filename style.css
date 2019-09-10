@@ -28,6 +28,7 @@ header{
     z-index: 0;
     width: 100vw;
     height: auto;
+    top:50px;
     }
 }
 #fixed-header{
@@ -258,4 +259,13 @@ footer{
     text-align: right;
     background-color: rgba(0,0,51,0.08);
     font-size: 1.5em;
+}
+@media (max-width: 700px), (max-height: 700px){
+    background-color: rgba(0,51,0,0.08);
+}
+@media (max-width: 750px), (max-height: 750px){
+    background-color: rgba(51,0,0,0.08);
+}
+@media (max-width: 800px), (max-height: 800px){
+    background-color: rgba(20,20,20,0.08);
 }
