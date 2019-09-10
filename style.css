@@ -33,7 +33,7 @@ header{
 }
 @media (hover:none) and (orientation: portrait){
     #header-img{
-        width: 200vw;
+        width: 200%;
         left: 0px;
         overflow: hidden;
     }
