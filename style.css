@@ -17,25 +17,35 @@ header{
     margin: 0 auto;
     text-align: center;
 }
-#header-img{
+#header-img-container{
     height: 100vh;
-    width: auto;
+    width: 100vw;
     position: relative;
     z-index: 20;
 }
+#header-img{
+    height: 100vh;
+    width: auto;
+}
 @media (hover: none){
-    #header-img{
+    #header-img-container{
     z-index: 0;
     width: 100vw;
     height: auto;
     top:65px;
     }
+    #header-img{
+        width: 100vw;
+        height: auto;
+    }
 }
 @media (hover:none) and (orientation: portrait){
-    #header-img{
-        width: 200%;
-        left: 0px;
+    #header-img-container{
         overflow: hidden;
+    }
+    #header-img{
+        width: 200vw;
+        height: auto;
     }
 }
 #white{
