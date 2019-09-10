@@ -35,6 +35,7 @@ header{
     #header-img{
         width: 200vw;
         left: 0px;
+        overflow: hidden;
     }
 }
 #white{
