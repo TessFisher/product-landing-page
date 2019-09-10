@@ -23,9 +23,11 @@ header{
     position: relative;
     z-index: 20;
 }
-@media (orientation: portrait){
+@media (hover: none){
     #header-img{
-    display: none;
+    z-index: 0;
+    width: 100vw;
+    height: auto;
     }
 }
 #fixed-header{
