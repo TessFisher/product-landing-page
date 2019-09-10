@@ -83,6 +83,11 @@ header{
         height: 20px;
     }
 }
+@media(hover:none){
+    #logo{
+        display: none;
+    }
+}
 #logo h1{
     font-size: 2.8em;
     color: #000033;
