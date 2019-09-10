@@ -28,7 +28,7 @@ header{
     z-index: 0;
     width: 100vw;
     height: auto;
-    top:70px;
+    top:65px;
     }
 }
 @media (hover:none) and (orientation: portrait){
