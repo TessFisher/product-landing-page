@@ -1,12 +1,14 @@
 html{
     font-family: 'Noto Sans', sans-serif;
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body{
 padding: 0;
 margin: 0 auto;
 background-color: rgba(0,0,51,0.08);
 overflow-x: hidden;
+scroll-behavior: smooth;
 }
 container{
     margin: 0 auto;
@@ -291,6 +293,7 @@ form{
 label{
     display: block;
     font-size: 0.8em;
+    margin: 10px auto;
 }
 #email-submit{
     margin: 10px auto;
@@ -316,6 +319,7 @@ label{
 }
 #submit:hover{
     color: #ae0101;
+    cursor: pointer;
 }
 #submit:active{
     background-color: #ae0101;
